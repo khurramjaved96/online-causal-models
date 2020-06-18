@@ -1,3 +1,5 @@
-# online-causal-models
+## Learning to ignore spurious correlations online 
 
-Code coming soon (~ a week).
+Paper link: https://arxiv.org/abs/2006.07461
+
+Code documentation hopefully coming soon. 
