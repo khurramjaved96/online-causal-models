@@ -3,8 +3,7 @@
 <div style="text-align:center">
     
 <img src="figures/model.png" alt="Overview of the learing algorithm" width="70% align="middle">
-                                                                           
-                                                                                                  </div>              
+                                                                          </div>              
 
 Paper link: https://arxiv.org/abs/2006.07461
 
