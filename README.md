@@ -1,7 +1,4 @@
-## Learning by Removing Spurious Features Online 
-
-### Paper title: Learning Causal Models Online
-### Authors: Khurram Javed, Martha White, Yoshua Bengio 
+## "Learning Causal Models Online," Khurram Javed, Martha White, Yoshua Bengio 
 
 <div>
 <img src="figures/model.png" alt="Overview of the learing algorithm" width="60% align="middle">
