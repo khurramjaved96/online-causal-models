@@ -31,12 +31,7 @@ logger = logging.getLogger('experiment')
 
 logger.info("Selected hyperparameters %s", str(flags))
 
-gpu_to_use = rank % flags["gpus"]
-if torch.cuda.is_available() and not flags["no_gpu"]:
-    device = torch.device('cuda:' + str(gpu_to_use))
-    logger.info("Using gpu : %s", 'cuda:' + str(gpu_to_use))
-else:
-    device = torch.device('cpu')
+device = torch.device('cpu')
 
 final_train_accs = []
 final_test_accs = []
