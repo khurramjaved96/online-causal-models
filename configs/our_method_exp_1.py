@@ -4,8 +4,6 @@ import configargparse
 class Parser(configargparse.ArgParser):
     def __init__(self):
         super().__init__()
-        self.add('-c', '--my-config', is_config_file=True, default="configs/regression/empty.ini",
-                 help='config file path')
         self.add('--seed', nargs='+', help='Seed', default=[90], type=int)
         self.add('--steps', type=int, nargs='+', default=[5010000])
         self.add('--no-noise', action='store_true')
