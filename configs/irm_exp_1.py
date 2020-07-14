@@ -12,7 +12,7 @@ class Parser(configargparse.ArgParser):
         self.add('--steps', type=int, nargs='+', default=[5010000])
         self.add('--no-noise', action='store_true')
         self.add('--rank', type=int, help='meta batch size, namely task num', default=0)
-        self.add('--name', help='Name of experiment', default="colored_mnist/")
+        self.add('--name', help='Name of experiment', default="IRM_baseline/")
         self.add('--output-dir', help='Name of experiment', default="../results/")
         self.add('--update-lr', nargs='+', type=float, help='task-level inner update learning rate',
                  default=[1e-4])
