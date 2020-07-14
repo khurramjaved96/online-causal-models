@@ -4,8 +4,6 @@ import configargparse
 class Parser(configargparse.ArgParser):
     def __init__(self):
         super().__init__()
-        self.add('-c', '--my-config', is_config_file=True, default="configs/regression/empty.ini",
-                 help='config file path')
         self.add('--gpus', type=int, help='meta-level outer learning rate', default=1)
         self.add('--no-gpu', action='store_true')
         self.add('--seed', nargs='+', help='Seed', default=[90], type=int)
